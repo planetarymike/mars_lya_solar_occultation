@@ -8,4 +8,8 @@ First, compile the code:
 
 	make solar_LOS_profiles
 
-To run the code, you'll need to specify an H exobase density and temperature, along with a filename (relative to the execution directory) pointing to a file of spacecraft positions. An example file including these positions is given in test_out.dat; this file was produced by the IDL routine sav2cppinput.pro, which you can inspect if you'd like to generate more such files. Then specify an output filename, again relative to the execution directory, where the output line of sight profiles should be stored. That's it!
+To run the code, 
+
+	./compute_solar_LOS_profiles.x
+
+You'll need to specify an H exobase density and temperature, along with a filename (relative to the execution directory) pointing to a file of spacecraft positions. An example file including these positions is given in test_out.dat; this file was produced by the IDL routine sav2cppinput.pro, which you can inspect if you'd like to generate more such files. Then specify an output filename, again relative to the execution directory, where the output line of sight profiles should be stored. That's it!
